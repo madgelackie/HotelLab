@@ -1,5 +1,10 @@
 public enum RoomType {
-    SINGLE,
-    DOUBLE;
-    
+    SINGLE(1),
+    DOUBLE(2);
+
+    private final int capacity;
+
+    RoomType(int capacity) {
+        this.capacity = capacity;
+    }
 }

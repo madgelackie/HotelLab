@@ -1,4 +1,8 @@
+import java.util.ArrayList;
+
 public abstract class Room {
 
-    private Guest[]
+    private ArrayList<Guest> guests;
+
+    public Room ()
 }
