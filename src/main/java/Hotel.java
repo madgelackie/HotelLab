@@ -5,10 +5,23 @@ public class Hotel {
     private ArrayList <ConferenceRoom> conferenceRooms;
     
 
-    public Hotel(ArrayList<Bedroom> bedrooms, ArrayList<ConferenceRoom> conferenceRooms) {
-        this.bedrooms = bedrooms;
-        this.conferenceRooms = conferenceRooms;
+    public Hotel() {
+        this.bedrooms = new ArrayList<>();
+        this.conferenceRooms = new ArrayList<>();
     }
+
+    public boolean roomIsVacant() {
+        if ()
+    }
+
+    public void addRoom(Bedroom bedroom) {
+        bedrooms.add(bedroom);
+    }
+
+    public int roomCount() {
+    }
+
+
 }
 
 

@@ -5,8 +5,7 @@ public class Bedroom extends Room {
     private RoomType roomType;
 
 
-    public Bedroom(ArrayList<Guest> guests, int roomNumber, RoomType roomType) {
-        super(guests);
+    public Bedroom(int roomNumber, RoomType roomType) {
         this.roomNumber = roomNumber;
         this.roomType = roomType;
     }

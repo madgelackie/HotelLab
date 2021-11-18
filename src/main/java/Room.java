@@ -4,7 +4,19 @@ public abstract class Room {
 
     private ArrayList<Guest> guests;
 
-    public Room(ArrayList<Guest> guests) {
-        this.guests = guests;
+    public Room() {
+        this.guests = new ArrayList<>();
+    }
+
+    public ArrayList<Guest> getGuests() {
+        return guests;
+    }
+
+    public int numberOfGuests(){
+        return guests.size();
+    }
+
+    public void addGuest(Guest guest){
+        guests.add(guest);
     }
 }
